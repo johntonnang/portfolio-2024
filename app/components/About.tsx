@@ -26,7 +26,7 @@ const About: React.FC<AboutProps> = ({ data }) => {
         animate="visible"
         variants={fadeAnimation}
         transition={{ duration: 0.5, delay: 0.8 }}
-        className="pointer-events-none relative flex h-screen flex-col overflow-hidden px-6 after:mb-4 after:h-1 after:w-full after:rounded-full after:bg-orange md:my-12 md:px-12 md:after:mb-12 lg:px-16"
+        className="pointer-events-none relative flex h-screen flex-col overflow-x-hidden px-6 after:mb-4 after:h-1 after:w-full after:rounded-full after:bg-orange md:px-12 md:after:mb-12 lg:px-16"
       >
         <motion.div
           initial="hidden"
@@ -101,7 +101,7 @@ const About: React.FC<AboutProps> = ({ data }) => {
         className="relative mt-6 flex h-screen flex-col overflow-hidden px-6 after:mb-4 after:h-1 after:w-full after:rounded-full after:bg-orange md:my-12 md:px-12 md:after:mb-12 lg:px-16"
       >
         <div className="my-6 flex h-full w-full flex-col justify-between gap-6 md:mt-12">
-          <div className="flex flex-col gap-2 md:gap-4">
+          <div className="flex flex-col gap-2 md:gap-8">
             <h3 className="dot text-3xl font-bold leading-tight tracking-tight text-orange-dark md:text-4xl xl:text-6xl">
               Get to know me
             </h3>
